@@ -38,7 +38,7 @@ NAN_METHOD(XmlElement::New) {
 
   xmlNode* elem;
 
-  if (args[1]->IsString()) {
+  if (info[1]->IsString()) {
     
     xmlChar* encodedContent = content ? xmlEncodeSpecialChars(document->xml_obj, (const xmlChar*)content) : NULL;
 
