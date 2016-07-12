@@ -52,7 +52,7 @@ NAN_METHOD(XmlElement::New) {
 
   } else
     elem = xmlNewDocText(document->xml_obj,
-                         content);
+                         (const xmlChar*)content);
 
   
   XmlElement* element = new XmlElement(elem);
