@@ -1,5 +1,5 @@
 # Libxmljs
-[![Build Status](https://secure.travis-ci.org/polotek/libxmljs.png?branch=master)](http://travis-ci.org/polotek/libxmljs)
+[![Build Status](https://secure.travis-ci.org/polotek/libxmljs.svg?branch=master)](http://travis-ci.org/polotek/libxmljs)
 
 LibXML bindings for [node.js](http://nodejs.org/)
 
@@ -42,6 +42,10 @@ See the [examples](https://github.com/polotek/libxmljs/tree/master/examples) fol
 ```shell
 npm install libxmljs
 ```
+
+## Contribute
+
+Start by checking out the [open issues](https://github.com/polotek/libxmljs/issues?labels=&page=1&state=open). Specifically the [desired feature](https://github.com/polotek/libxmljs/issues?labels=desired+feature&page=1&state=open) ones.
 
 ### Requirements
 
